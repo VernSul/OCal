@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scheduler</title>
+    <meta charset='utf-8' />
+  </head>
+  <body>
+    <p>Scheduler</p>
+    <script src="./api.js"></script>
+    <button id="authorize-button" style="display: none; ">Authorize</button>
+    <button id="signout-button" style="display: none;">Sign Out</button>
+
+   
+
+
+
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <!-- <button id="authorize-button" style="display: none;">Authorize</button>
+    <button id="signout-button" style="display: none;">Sign Out</button> -->
+
+    <pre id="content"></pre>
+
+   
+
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>
